@@ -98,6 +98,7 @@ DB_NAME=teamcollab
 
 🌐 Deployment Details
 
+
 ✔ Backend – Namecheap Shared Hosting
 
 Backend deployed using:
