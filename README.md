@@ -97,6 +97,7 @@ DB_PASSWORD=your_password
 DB_NAME=teamcollab
 
 🌐 Deployment Details
+
 ✔ Backend – Namecheap Shared Hosting
 
 Backend deployed using:
