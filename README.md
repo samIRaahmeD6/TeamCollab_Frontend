@@ -4,6 +4,8 @@ A real-time collaboration and messaging platform built with Node.js, Express, So
 Backend is deployed on Namecheap, and the frontend is hosted on GitHub Pages.
 
 🚀 Live Demo
+
+![Demo](./client/src/assets/teamcollab.gif)
 🔗 Frontend (GitHub Pages):
 
 [https://samiraahmed6.github.io/TeamCollab_Frontend/](https://samiraahmed6.github.io/TeamCollab_Frontend/)
