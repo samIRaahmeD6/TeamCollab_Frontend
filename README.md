@@ -5,7 +5,7 @@ Backend is deployed on Namecheap, and the frontend is hosted on GitHub Pages.
 
 🚀 Live Demo
 
-[![Demo](assets/Animation.gif)](assets/Animation.gif)
+[![Demo](src/assets/Animation.gif)](src/assets/Animation.gif)
 
 🔗 Frontend (GitHub Pages):
 
