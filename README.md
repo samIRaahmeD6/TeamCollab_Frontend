@@ -1,16 +1,150 @@
-# React + Vite
+TeamCollab – Real-Time Messaging and Task management app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time collaboration and messaging platform built with Node.js, Express, Socket.IO, MySQL, and React (Vite).
+Backend is deployed on Namecheap, and the frontend is hosted on GitHub Pages.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+🔗 Frontend (GitHub Pages):
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://samiraahmed6.github.io/TeamCollab_Frontend/](https://samiraahmed6.github.io/TeamCollab_Frontend/)
 
-## React Compiler
+🔗 Backend API (Namecheap):
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[https://hasibul-rupok.com/teamCollab/api/](https://hasibul-rupok.com/teamCollab/)
 
-## Expanding the ESLint configuration
+📌 Features
+✅ User System
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User registration
+
+User login
+
+Plain text password comparison (no bcrypt)
+
+💬 Real-Time Messaging
+
+
+Group chat
+
+Online users sidebar
+
+Task assignment and Drag and Drop option
+
+Real-time WebSocket communication using Socket.IO
+
+📁 Database Stored in MySQL
+
+Users
+
+Messages
+
+Tasks
+
+
+🖥 Frontend (React + Vite + Tailwind CSS)
+
+Login & Register pages
+
+Sidebar with user list
+
+Chat UI
+
+Task Assignment with Drag and Drop option
+
+🏗 Tech Stack
+Frontend
+
+React (Vite)
+
+Tailwind CSS
+
+Socket.IO Client
+
+GitHub Pages Deployment
+
+Backend
+
+Node.js
+
+Express.js
+
+MySQL
+
+Socket.IO
+
+Hosted on Namecheap Shared Hosting
+
+📂 Project Structure
+TeamCollab/
+│── client/                # React frontend
+│   ├── src/
+│   ├── public/
+│   └── vite.config.js
+│
+│── server/                # Node.js backend
+│   ├── routes/
+│   ├── controllers/
+│   ├── database/
+│   └── server.js
+
+🔧 Environment Variables (Backend)
+
+Create .env in the backend folder:
+
+DB_HOST=localhost
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_NAME=teamcollab
+
+🌐 Deployment Details
+✔ Backend – Namecheap Shared Hosting
+
+Backend deployed using:
+
+Node.js App Manager
+
+MySQL Database
+
+Custom API route:[
+https://hasibul-rupok/teamCollab/api/
+](https://hasibul-rupok.com/teamCollab/api)
+✔ Frontend – GitHub Pages Deployment
+
+
+export default defineConfig({
+  base: '/TeamCollab_Frontend/',
+});
+
+
+Add GitHub workflow or manually deploy using:
+
+npm run build
+git subtree push --prefix dist origin gh-pages
+
+⚙ Running Locally
+Backend
+cd server
+npm install
+npm start
+
+Frontend
+cd client
+npm install
+npm run dev
+
+🧪 API Endpoints
+🔹 Authentication
+Method	Endpoint	Description
+POST	/api/register Register user
+POST	/api/login	Login user
+🔹 Users
+Method	Endpoint	Description
+GET	/api/user	Get list of users
+
+
+🧑‍💻 Author
+
+Samira Ahmed
+Full Stack Developer
+
+GitHub: https://github.com/samiraahmed6
